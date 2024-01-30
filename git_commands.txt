@@ -1,0 +1,45 @@
+SETUP
+1. git config --global user.name -> set a name that's identifiable for credit when reviewing version history
+
+2. git config --global user.email -> set an email address that will be associated with each history marker
+
+3. git config --global color.ui auto -> set automatic command line coloring for Git for easy reviewing
+
+STAGE & SNAPSHOT
+4. git status -> Show modified files in working directory, staged for your next commit
+
+5. git add [file] -> add a file as it looks now to your next commit [stage]
+
+6. git reset [file] -> unstage a file while retaining the changed in the working directory
+
+7. git diff -> Show the difference between what is changed but not staged.
+
+8. git commit -m "[descriptive message]" -> Commit your staged content as new commit snapshot
+
+BRANCH & MERGE
+9. git branch -> list your branches. An * wwill appear next to the current active branch
+
+10. git branch [branch-name] -> Create a new branch at the current commit
+
+11. git checkout -> Switch to another branch and check it out into your working directory
+
+12. git merge [branch] -> Merge the specified branch's into the current one
+
+13. git log -> Show all commits in the current branch's history
+
+
+SETUP & INIT
+14. git init -> initialize an existing directory as a Git repository
+
+15. git clone [url] -> retrieve an entire repository from a hosted location via URL
+
+INSPECT & COMPARE
+16. git log -> Show the commit history for the currently active branch
+
+17. git log branchB..branchA -> Show the commits on branchA that are not on branchB
+
+18. git log --follow [file] -> show the commits that changed file, even across renames
+
+19. git diff branchB...branchA -> show the diff of what is in branch that is not in branchB
+
+20. git show [SHA] -> show any object in Git in human-readable format
