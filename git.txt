@@ -1,3 +1,5 @@
+<!DOCTYPE HTML>
+<HTML>
 <h2>What is GIT</h2>
 
 Before we go through the process of installing Git on your computer, let's make sure you understand the concept of Git and what it actually is.
@@ -34,3 +36,4 @@ computer.
 - Popular distributions include debian/ubuntu from which the package manager is apt. To install Git from apt, first run the command "sudo apt-get update" and then the command "sudo apt-get install git-all". Once its done, type "git version" to verify the installation of Git on your system.
 
 - If your Linux version is Fedora, its package manager is dnf. To istall Git on Fedora, go to the command prompt shell and run the command "sudo dnf install git-all" and once the command has finished executing, verify the installation by typing the command "git version"
+</HTML>
