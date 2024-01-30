@@ -1,0 +1,36 @@
+<h2>What is GIT</h2>
+
+Before we go through the process of installing Git on your computer, let's make sure you understand the concept of Git and what it actually is.
+
+Git is a distributed version control system that tracks changes in any set of Computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development. In simple terms, it enables people from different locations across the globe to work on the same project overcoming the limitations of geographical location. It also enables the people working on the same project to segregate different functionalities and once the features have been tested, they can be introduced to the main code.
+
+Git is available on most Operating systems like Windows, Mac and Linux. It is installed by default on most Mac and Linux Machines.
+
+<h3>STEPS TO INSTALLING Git</h3>
+1. First check to see if it is installed on your 
+computer.
+
+- To see if Git is installed, open the terminal if on Mac and linux and open the Command Propmt if you are on Windows.
+
+- Once you have opened the terminal, type the command "git version". The output of this command will tell you which version of Git is installed and if its not installed, it will say that Git is an unknown command.
+
+<h5>Installing Git on Windows</h5>
+- Head over to the Git website and download the Git installer.
+- Once the installer is donwloaded, run it and let it finish installing.
+- After the installer is done, open the command prompt and type the command "git version" and you will see the version of Git that you have just installed on your computer.
+
+<h5>Installing Git on Mac</h5>
+- Most versions of MacOS will already have Git installed and you can activate through the terminal with the command "git version".
+- But if you can't see the version on the terminal, you'll have to download it and here are the steps.
+
+<h6>Installing Git from an Installer</h6>
+- Navigate to the latest MacOS Git installer and download it. Run the installer and wait for it to finish then run the command "git version" on the terminal and you'll see the version number of the Git you just installed.
+- You can also install it from Homebrew. Homebrew is a popular package manager for MacOS. You can simply run the following command on the terminal. "brew install git"
+- Once the command output has completed, you can verify the installation by typing: git version
+
+<h5>Installing Git on Linux</h5>
+- You can install git through the package manager that comes with your distribution. To check the distribution of Linux you are running, just run the following command on the terminal. "cat /etc/issue". Once you know the version of Linux, check the package manager that comes with that distribution and then install git from that package manager.
+
+- Popular distributions include debian/ubuntu from which the package manager is apt. To install Git from apt, first run the command "sudo apt-get update" and then the command "sudo apt-get install git-all". Once its done, type "git version" to verify the installation of Git on your system.
+
+- If your Linux version is Fedora, its package manager is dnf. To istall Git on Fedora, go to the command prompt shell and run the command "sudo dnf install git-all" and once the command has finished executing, verify the installation by typing the command "git version"
