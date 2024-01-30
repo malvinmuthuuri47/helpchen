@@ -1,0 +1,23 @@
+In this file, we will go over the process of creating a Github account, creating your first repo and cloning the repo to your local machine.
+
+CREATING YOUR FIRST GITHUB REPOSITORY.
+
+- First, open your browser and search the keyword "Github". Click the first link that appears that has the web address "https://github.com". Then you will be redirected to the official Github website. Look for the sign up button which you will find on the top right part of your screen. Click on it and you will be redirected to a webpage that will ask you for your email address. Type in the email address you will be using with your github account.
+
+- Create a Password for your account and then create a username which will be the name other github users will be able to see when they are viewing your profile and repositories. You will be asked to solve some puzzles to verify you are not a bot and also asked to verify your account through your email where a lauch code will be sent. Enter this launch code and after these steps, you'll be logged into your account.
+
+- After logging in, you will find that have no repositories. Repositories are like folders that contain the projects that you will undertake. In the upper-right corner of the page, select the + sign and the click "New repository".
+
+- Type a short, memorable name for your repository and then you can optionally add a description of your repository. There is also the option for the repository visibility. If you choose the public option, your repository will be visible to everyone. You can choose this for open source projects that you want others to find and if you want to keep the contents of a repository away from the general public, choose the private option.
+
+- You can initialize the repository with a Readme file. This file just acts as a brief explanation of what the repository is all about. After all this, you can click the "Create Repository" button and that's all you need to do to create your first repository.
+
+CLONING YOUR FIRST REPOSITORY
+- CLoning a repository is like making a copy of the repository that's on github and having it on your local computer. There are many benefits to this. The first one is that you have access to your work even when you have no internet access. Github acts as an online storage so you are able to collaborate with others on the same project and when collaborators of a project clone the reposiory, they each have access the to work contained in the repository and hence, they can work separately and when when they are done, the changes they make will have to be merged with the work of others. This is the whole concept behind Github and cloning.
+
+- Lets get into the steps of cloning the repository then:
+1. When you look at the interface of github, you will see a green button saying "Code". Click on that button and a drop-down will appear. If you are using the HTTPS cloning method, click "HTTPS" and copy the command. Likewise, if you are using ssh or Github CLi, repeat the same process and click on the appropriate method you are using and copy the command.
+
+2. Open the terminal and navigate to the directory of your choise where you want to clone your repo.
+
+3. Type git clone followed by the command you copied from Github. Press enter and the cloning will be done. Make sure you have a reliable internet connection for this step.
